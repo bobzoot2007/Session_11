@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dog Life|Home</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="main_bootstrap.html">The Dog life</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="main_bootstrap.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio_bootstrap.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about_bootstrap.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="feedback_bootstrap.html">Give Me Feedback</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="display-4">The Dog Life</h1>
+        <p class="lead">The dog life is easy, but if you dont know what you are doing, you are more than welcome to this site.</p>
+        <hr class="my-4">
+        <a class="btn btn-lg btn-outline-info" href="about_bootstrap.html" role="button">Learn more</a>
+        <!-- Button trigger modal -->
+       <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#exampleModal">
+            Brief overview of my Life
+        </button>
+    </div>
+        <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Brief overview of my life</h5>
+                        <button type=button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <ol>
+                            <li>I am Bob zuaby;</li>
+                            <li>I like to program;</li>
+                            <li>I love my two dogs "WhyTea" & "Fluffy";</li>
+                            <li>I love my family.</li>
+                        </ol>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-outline-success" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="card-deck border-success">
+            <div class="card">
+                <img src="main_whytea.jpg" class="card-img-top" alt="whytea_pic">
+                <div class="card-body btn-outline-info">
+                    <h5 class=card-title">WhiTeay <span class="badge badge-info">New</span></h5>
+                    <p class="card-text"><i><b>Hi, my name is WhiTeay although my fur is black, my elder brother decided to call me WhiTeay because he can see my White heart.</b></i></p>
+                </div>
+                <div class="card-footer">
+                    <form action="about_bootstrap.html">
+                        <button type="submit" class="btn btn-outline-info">Learn more</button>
+                    </form>
+                </div>
+            </div>
+            <div class="card">
+                <img src="main_fluffy.jpg" class="card-img-top" alt="Fluffy_Pic">
+                <div class="card-body btn-outline-info">
+                    <h5 class="card-title">Fluffy <span class="badge badge-info">New</span></h5>
+                    <p class="card-text"><i><b>Hi, my name is Fluffy, my family named me Fluffy because I was too fuzzy as a little puppy.</b></i></p>
+                </div>
+               <div class="card-footer">
+                    <form action="about_bootstrap.html">
+                        <button type="submit" class="btn btn-outline-info">Learn more</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <br>
+    <br>
+</div>
+<div class="bisness"> <!--Bobs portfolio-->
+    <div class="container">
+        <p id="protfoliolinker">Visit Bob's portfolio</p>
+        <form action="portfolio_bootstrap.html">
+          <button type="submit" name="Go to portfolio" class="btn btn-outline-info">Go to portfolio</button>
+        </form>
+    </div>
+
+</div>
+<div class="footer">
+
+    <footer>
+        <p>©Copyright 2020 The dog life, all rights reserved</p>
+    </footer>
+
+</div>
+
+           <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                    crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+                    integrity="sha384-Q6E9RHvbIyZFJoft2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+                    crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+                    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+                    crossorigin="anonymous"></script>
+
+</body>
+<style>
+    body{
+        background-color: #56c5d8;
+    }
+
+    .btn-outline-success{
+        height: 48px;
+    }
+
+    .bisness{
+        text-align: center;
+        background-color: blueviolet;
+        padding: 2rem;
+    }
+
+    .footer{
+        background-color: blueviolet;
+        padding: 1rem;
+        color: azure;
+        font-size: large;
+    }
+
+    #protfoliolinker{
+        font-size: larger;
+        color: azure;
+    }
+</style>
+</html>
+
+<!-- End of code -->
